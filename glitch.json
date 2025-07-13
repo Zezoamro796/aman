@@ -1,0 +1,14 @@
+{
+  "install": "npm install",
+  "start": "node server.js",
+  "watch": {
+    "ignore": [
+      "**/*.test.js",
+      "**/*.spec.js",
+      ".git/**/*"
+    ]
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
+} 
